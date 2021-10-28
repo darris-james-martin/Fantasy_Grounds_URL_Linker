@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+  <string name="link_sheet_content_Label3_LabelCaption">Link Description:</string>
+  <string name="link_sheet_content_Label1_LabelCaption">Enter URL:</string>
+  <string name="link_sheet_content_Label4_LabelCaption">URL Link:</string>
+  <string name="link_sheet_content_btn_create_ButtonCaption">Create Link</string>
+  <string name="link_sheet_content_btn_chat_ButtonCaption">Send to Chat</string>
+</root>

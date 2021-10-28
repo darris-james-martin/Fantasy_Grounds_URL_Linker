@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.0">
+  <announcement text="URL Links Extension Created by GM Frostbyte. Thank you for your support.\rBuilt using RulesetWizard &amp; templateTemplate v1.1 \r*************************************** \rWarning! \r**************************************\rThis campain has URL Links Extension turned on. If you are not confortable with the GM sending you links to external sources, please ask the GM to turn off this extension. \rOtherwise, if you get Rick Rolled, please do not blame us." icon="GMFrostbyteLogo" />
+  <properties>
+    <name>URL Links Extension - GM Frostbyte</name>
+    <version>1</version>
+    <author>GM Frostbyte</author>
+  </properties>
+  <base>
+    <includefile source="campaign/containers/link_sheets/link_sheet_content.xml" />
+    <includefile source="campaign/containers/link_sheets/linksheet.xml" />
+    <script name="link_manager" file="campaign/scripts/link_manager.lua" />
+    <includefile source="campaign/scripts/strings_for_containers.xml" />
+    <icon name="GMFrostbyteLogo" file="graphics/logo/frostbyteGMLogo.jpg" />
+    <includefile source="strings_URL Links Extension - GM Frostbyte.xml" />
+    <script name="RulesetWizardDiceRoller" file="RulesetWizardDiceRoller.lua" />
+    <script name="RulesetWizard" file="RulesetWizard.lua" />
+  </base>
+</root>
