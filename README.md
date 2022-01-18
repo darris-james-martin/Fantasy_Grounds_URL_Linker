@@ -1,16 +1,15 @@
-# Fantasy_Grounds_URL_Linker
- URL Container extension created for Fantasy Grounds VTT 
- 
- Fantasy Grounds is owned by SmiteWorks and is a virtual table top application for players of tabletop role-playing games like Dungeons and Dragons. 
- 
- Using XML and LUA I created a URL Linker. You can see an intro video on it here.</br>
- https://www.youtube.com/watch?v=PStYjyGk4qs&t=7s&ab_channel=frostbyte000jm
+# Fantasy_Grounds_URL_Linker 
+URL Container extension created for Fantasy Grounds VTT  
 
-Download this for your own use from the Forge:</br>
-https://forge.fantasygrounds.com/shop/items/318/view
+Fantasy Grounds is owned by SmiteWorks and is a virtual table top application for players of tabletop role-playing games like Dungeons and Dragons.  
 
-![image](https://user-images.githubusercontent.com/93277335/149672895-e5b32ded-d4fd-4d2c-b649-60627619a545.png)
+Using XML and LUA I created a URL Linker. An intro video can be viewed here.</br> 
+https://www.youtube.com/watch?v=PStYjyGk4qs&t=7s&ab_channel=frostbyte000jm 
 
+Download this for your own use from the Forge:</br> 
+https://forge.fantasygrounds.com/shop/items/318/view 
+
+![image](https://user-images.githubusercontent.com/93277335/149854704-27255dca-91e6-43bc-951c-31bb684386f2.png)
 
 ## Extension Code
 Adding a sidebar item is fairly easy, just need to add it to the LibraryData object
@@ -34,7 +33,7 @@ function onInit()
 end
 ```
 
-The container is built in XML with LUA underline code. I created a template to keep the containers standardize. So the Frame and Header all look like this. I use this template in all my container creations for FG. 
+The container is built in XML with LUA underline code and I created a template to keep the containers standardized. I developed this Frame and Header template to use in all of my container creations for FG.  
 ```xml
 <?xml version="1.0" encoding="iso-8859-1"?>
 
@@ -258,4 +257,3 @@ end
 </root>
 
 ```
-![image](https://user-images.githubusercontent.com/93277335/149672878-12235c29-a12d-4f8e-888e-224d53332698.png)
